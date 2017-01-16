@@ -1,0 +1,72 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 1024px;
+    margin-left: 20%;
+    margin-top: 50px;
+    font: 25px "Helvetica",sans-serif;
+    color: black;
+    background-color: #4e5151;
+}
+
+.panel {
+    border: black solid 1px;
+    margin-bottom: 20px;
+    background-color: #808080;
+}
+
+.panel-body {
+    height: 50px;
+    vertical-align: baseline;
+    border: black solid 1px;
+    border-radius: 20px;
+    margin: 15px;
+    padding-left: 10PX;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    border: 2px solid #000000;
+    background-color: #808080;
+}
+
+a {
+    font : 20px "Arial",sans-serif;
+    text-decoration: none;
+    color: #6495ED;
+}
+
+a:hover {
+    color: #87CEFA;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    float: right;
+    
+}
+
+.pull-right {
+    float: right;
+    background-image: url("../images/Trash.jpg");
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+    margin-top: 7px;
+    border-radius: 10px;
+}
+
+form {
+    display: initial;
+}
+
+.form-control {
+    width: 400px;
+}
